@@ -1,0 +1,30 @@
+ <div class="give-flex">
+               <div class="amount">
+                <input type="number" name="amount" id="amount" placeholder="enter amount">
+               </div>
+               
+               <div class="select-menu">
+                <div class="select-btn">
+                    <span class="sBtn-text">
+                        ---Give Type---
+                    </span>
+                    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                </div>
+                <ul class="options">
+                    <li class="option">
+                        <span class="option-text">Tithe <span class="amount"></span></span>
+                        <input type="radio" name="amount" id="classic" class="select-input">
+                    </li>
+                    
+                    <li class="option">
+                        <span class="option-text"> Offerings</span>
+                        <input type="radio" name="amount" id="Platinum" class="select-input">
+                    </li>
+
+                    <li class="option">
+                        <span class="option-text">Others <span class="amount"></span></span>
+                        <input type="radio" name="amount" id="Vip" class="select-input">
+                    </li>
+                </ul>
+            </div>
+            </div>
